@@ -1,0 +1,54 @@
+.Home {
+  background-color: rgb(156, 156, 179);
+}
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+}
+.logo {
+  font-family: Poppins;
+}
+.title {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.title a {
+  font-family: Poppins;
+  text-decoration: none;
+  color: black;
+}
+.all {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 50px;
+  gap: 30px;
+}
+.alls {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  //   height: 80px;
+  text-align: center;
+}
+.alls button {
+  font-family: Poppins;
+  font-size: 1em;
+  padding: 10px;
+  border: none;
+  border-radius: 12px;
+  background-color: red;
+  color: #fff;
+  margin-top: -6px;
+}
+.all-api {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 50px;
+  gap: 30px;
+}
